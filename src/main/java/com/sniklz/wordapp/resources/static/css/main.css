@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+
+}
+
+.card {
+    background-color: bisque;
+    height: 60vh;
+    width: 35vh;
+    padding: 8px;
+    border-radius: 12px;
+    border: 1px solid blanchedalmond;
+    box-shadow: 2px 2px 2px gray;
+}
+
+h2 {
+    margin-top: 40%;
+    text-align: center;
+}
+
+.myForm {
+    margin-top: 90%;
+    margin-left: 50%;
+}
+
+.myForm label {
+    margin-left: -20%;
+}
+
+.textInput {
+    margin-left: -55%;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-left: -15%;
+    margin-top: 10px;
+}

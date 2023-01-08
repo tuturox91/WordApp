@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Translate Word</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+    <meta charset="UTF-8">
+</head>
+<body>
+<!-- <h1>Welcome to...</h1>
+<p th:text="${text}"></p> -->
+
+<div class="container">
+    <div class="card">
+        <H2 th:text="${text}"></H2>
+        <div class="myForm">
+            <form action="" method="post">
+                <label for="fname">Перевод:</label><br>
+                <input class="textInput" type="text" id="fname" name="fname" value="Перевод"><br>
+                <input class="btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
